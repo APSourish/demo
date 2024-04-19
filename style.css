@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    height: 75vh;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+#rot{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    height: 120vh;
+    rotate: 45deg;
+    transition: 1s linear;
+}
+
+
+#sec1 img{
+    height: 350px;
+    width: 350px;
+    margin: 40px;
+    border-radius: 50%;
+}
+#sec2 img{
+    height: 350px;
+    width:350px;
+    margin: 40px;
+    border-radius: 50%;
+}
